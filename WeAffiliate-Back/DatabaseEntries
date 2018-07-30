@@ -1,0 +1,203 @@
+// clientDetail = {
+//   name: "Kamlesh",
+//   password: "Biswal",
+//   clientID: 3,
+//   email: "biswal281@gmail.com",
+//   phoneNo: "9865321475",
+//   organizationName: "BCorp",
+//   subscriptionDetail: {
+//     expiryDate: "2019/06/24",
+//     active: true
+//   }
+// }
+// Client.create(clientDetail );
+
+
+widgetDetail = {
+    clientID: 1,
+    buttonSetting: {
+        text: "Services"
+        textColor: "#fffccc",
+        backgroundColor: "Blue",
+        borderColor: "green",
+        feedbackTabAlignment: false
+    },
+    categorySetting: [{
+      isDefault: true
+      name: "category1",
+      categoryID: 1
+    }, {
+      isDefault: true
+      name: "category2",
+      categoryID: 2
+    }, {
+      name: "category3",
+      categoryID: 3
+    }],
+    defaultFields: {
+      name: {
+        value: "Himanshu Dhakrey"
+      },
+      email:{
+        value: "himanshudhakrey2014@gmail.com"
+      },
+      message:{
+      value:"Well, your service is pretty well"
+      }
+      category: {
+      value : ['Like', 'Customer Support', 'Jobs and Internship']
+      }
+    }
+    fieldSetting:[{
+      fieldId: 4,
+      fieldType: "dropDownMenu",
+      label: "field1"
+    }, {
+      fieldId: 5,
+      fieldType: "rating",
+      label: "field2"
+    }],
+    thankyouMessage: "Thankyou for submitting feedback",
+    styleSetting: "h1{ font-size : 10px}"
+}
+
+FeedbackDetail = {
+    feedbackId: 91,
+    clientId: 564,
+    feedback: [{
+      fieldId: 4,
+      fieldType: "dropDownMenu",
+      label: "field1"
+    }, {
+      fieldId: 5,
+      fieldType: "rating",
+      label: "field2"
+    }]
+}
+
+
+
+{
+    "name": "dev",
+    "password": "dd",
+    "clientID": 56,
+    "email": "dd281@gmail.com",
+    "phoneNo": "9865321475",
+    "organizationName": "dCorp",
+    "subscriptionDetail": {
+    "expiryDate": "2019/06/24",
+    "active": true
+  }
+}
+
+{
+    "clientID": 1,
+    "buttonSetting": {
+        "textColor": "#fffccc",
+        "backgroundColor": "Blue",
+        "borderColor": "green"
+    },
+    "categorySetting": [{
+      "name": "category1",
+      "categoryID": 1
+    }, {
+      "name": "category2",
+      "categoryID": 2
+    }, {
+      "name": "category3",
+      "categoryID": 3
+    }],
+    "fieldSetting":[{
+      "fieldId": 4,
+      "fieldType": "dropDownMenu",
+      "label": "field1"
+    }, {
+      "fieldId": 5,
+      "fieldType": "rating",
+      "label": "field2"
+    }],
+    "thankyouMessage": "Thankyou for submitting feedback",
+    "styleSetting": "h1{ font-size : 10px}"
+}
+
+
+// widgetEntries
+
+{
+    "clientID": 3,
+    "buttonSetting": {
+        "text": "Services",
+        "textColor": "#fffccc",
+        "backgroundColor": "Blue",
+        "borderColor": "green",
+        "feedbackTabAlignment": false
+    },
+    "categorySetting": [{
+      "isDefault": true,
+      "name": "category1",
+      "categoryID": 1
+    }, {
+      "isDefault": true,
+      "name": "category2",
+      "categoryID": 2
+    }, {
+      "name": "category3",
+      "categoryID": 3
+    }],
+    "defaultFields": {
+      "name": {
+        "value": "Himanshu Dhakrey"
+      },
+      "email":{
+        "value": "himanshudhakrey2014@gmail.com"
+      },
+      "message":{
+      "value":"Well, your service is pretty well"
+      },
+      "category": {
+      "value" : [
+      	"Like",
+      	"Customer Support",
+      	"Jobs and Internship"
+      	]
+      }
+    },
+    "fieldSetting":[{
+      "fieldId": 4,
+      "fieldType": "dropDownMenu",
+      "label": "field1"
+    }, {
+      "fieldId": 5,
+      "fieldType": "rating",
+      "label": "field2"
+    }],
+    "thankyouMessage": "Thankyou for submitting feedback",
+    "styleSetting": "h1{ font-size : 10px}"
+}
+
+// fienl feedback
+
+
+{
+    "widgetID": 2,
+    "feedback": {
+    	"defaultFields":{
+      "name": {
+      	"label": "Name",
+        "value": "Himanshu Dhakrey"
+      },
+      "email":{
+      	"label":"Email",
+        "value": "himanshudhakrey2014@gmail.com"
+      },
+      "message":{
+       "label": "Message",
+       "value":"Well, your service is pretty well"
+      },
+      "category": {
+      "label":"Category",
+      "value" : ["Like", "Customer Support", "Jobs and Internship"]
+      }
+    }
+    }
+}

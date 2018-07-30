@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Form using JavaScript</title>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script async="async" defer="defer" id="feedback_form_tag" type="text/javascript">
+    var clientIDForForm;
+    (function(i, document,id ){
+                    i['getClientIDObject'] = id;
+                    i[id] = i[id] || function() {
+                      (i[id].q = i[id].q || []).push(arguments)
+                    }, i[id].l = 1 * new Date();
+                    //console.log(i[id]);
+                    var f = document.createElement("script"),
+                        d = document.getElementById("feedback_form_tag");
+                    f.type = "text/javascript", f.async = !0, f.src = "http://localhost:3000/js/form.js", d.parentNode.insertBefore(f, d)
+  })(window, document,'getClientID')
+    setTimeout(function(){
+        var widgetid=localStorage.getItem('id')
+        getClientID(3);},500);
+</script>
+</head>
+<body>
+<img src="/img/dashboard%20.png" style="max-width: 100%;">
+</div>
+</body>
+</html>

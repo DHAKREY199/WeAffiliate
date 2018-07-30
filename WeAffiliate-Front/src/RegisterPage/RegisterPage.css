@@ -1,0 +1,59 @@
+.App {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+.loginstyle {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: rgba(101, 60, 146, 0.67);
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  border-radius: 0px;
+  position: relative;
+  z-index: 1100;width: 100%;
+  display: flex;
+padding-left: 170px;
+  padding-right: 24px;
+} 
+.headingstyle{
+  white-space: nowrap; 
+  overflow: hidden; text-overflow:
+   ellipsis; margin: 0px; padding-top: 0px; 
+   letter-spacing: 0px; font-size: 24px; font-weight: 400; 
+   color: rgb(255, 255, 255); height: 64px; 
+   line-height: 64px; flex: 1 1 0%;}
+ .buttonstyle{border: 10px;
+   box-sizing: border-box;display: 
+   inline-block;font-family: Roboto,
+    sans-serif;-webkit-tap-highlight-color:
+     rgba(0, 0, 0, 0);cursor: pointer;
+    text-decoration: none;margin: 0px;padding: 0px;outline: none;
+    font-size: inherit;font-weight: inherit;position: relative;height: 36px;
+    line-height: 36px;
+    border-radius: 2px;transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+   background-color: rgb(0, 188, 212);
+   text-align: center;
+   border-radius: 2px; top: 0px;}
+   
+   
+   .spanstyle{
+     position: relative;
+      opacity: 1; font-size: 14px; 
+      letter-spacing: 0px; text-transform: uppercase; 
+      font-weight: 500; margin: 0px; user-select: none;
+       padding-left: 16px; padding-right: 16px; 
+       color: rgb(255, 255, 255);
+   }
+   .Ourlogo{
+   background:'./favicon.png';
+    width: 16px;
+    height: 16px;
+    border: none;
+ 
+    display:inline-block;
+ }
